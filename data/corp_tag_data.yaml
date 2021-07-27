@@ -1,0 +1,12 @@
+ smoke:
+    testsearch:
+      groupname: 客户等级
+      tagsname: 一般
+    testadd:
+      tagname: 冒烟tag1
+      groupname: 冒烟组GROUP2!
+    testaddorder:
+      tagname: 冒烟弼
+      order: 3
+    testedit:
+      tagname: 冒烟莪@#￥

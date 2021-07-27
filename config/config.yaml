@@ -1,0 +1,4 @@
+log_conf:
+  name: "wework-api-test"
+  level: "INFO"
+  formatter: "------%(asctime)s--%(levelname)s:%(name)s:%(message)s--%(filename)s---%(lineno)s"
