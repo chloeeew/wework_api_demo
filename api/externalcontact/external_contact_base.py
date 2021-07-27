@@ -23,6 +23,3 @@ class ExternalContactBase(BaseApi):
 
 
 
-
-# if __name__ == '__main__':
-#     ExternalContactBase().get_access_token()

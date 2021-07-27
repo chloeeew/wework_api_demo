@@ -38,7 +38,3 @@ class BaseApi:
 
 
 
-
-#
-# if __name__ == '__main__':
-    # BaseApi().__get_access_token('7vqhu8H3IsbEDhCV4wSnO0mtl0oW1xnGan5FdvBGCvI')
