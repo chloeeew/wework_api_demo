@@ -11,11 +11,13 @@ from api.externalcontact.corp_tag import CorpTag
 from utils.yaml_controller import yaml_data
 
 
-@allure.feature('管理企业标签测试')
+@allure.epic("企业微信web")
 @pytest.mark.usefixtures("init_corp_tag")
+@allure.feature("管理企业标签")
 class TestCorpTag:
 
-    @allure.story('管理企业标签全流程冒烟测试')
+    @allure.title("管理企业标签全流程冒烟测试")
+    @pytest.mark.run(order=1)
     def test_smoke_success(self):
         """
         冒烟测试：管理企业标签全流程
@@ -73,15 +75,21 @@ class TestCorpTag:
             assert tag_02_id not in ct.get_tags_id(search_result_06)
             assert "冒烟组GROUP2!" not in ct.get_groups_name(search_result_06)
 
+    @allure.title("测试增加标签-未实现")
+    @pytest.mark.run(order=2)
     def test_add_tag(self):
         pass
 
+
+    @allure.title("测试编辑标签-未实现")
+    @pytest.mark.run(order=3)
     def test_edit_tag(self):
         pass
 
+    @allure.title("测试删除标签-未实现")
+    @pytest.mark.run(order=4)
     def test_delete_tag(self):
         pass
-
 
 
 

@@ -10,8 +10,6 @@ from api.externalcontact.external_contact_base import ExternalContactBase
 
 class CorpTag(ExternalContactBase):
 
-
-
     def search_tag(self, tag_id: list = None, group: list = None) -> dict:
         """
         若tag_id和group_id均为空，则返回所有标签。
