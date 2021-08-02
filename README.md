@@ -25,4 +25,7 @@ Cor ID and Corp Secret Number are for private tesing. This project has desensiti
 **你不能直接地通过run运行此项目**
 - 本项目中设计企业微信的企业id信息以及功能secret码，已做了脱敏处理，因此无法直接运行，可自行注册测试用途的新企业,并在企业微信寻找到对应的个人id信息及功能secret码执行填写后执行
 
-
+---
+#### Contact 联系
+- if you have any corrections or suggestions on the code please contact.
+- 如果对代码有何优化建议或更正，请联系。
